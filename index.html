@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Usuarios</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styel.css">
+</head>
+<body>
+    <i class="fab fa-facebook-f"></i>
+    <form action="">
+        <input type="text" placeholder="nombre" data-nombre>
+        <input type="password" placeholder="password" data-pass>
+        
+        <button type="submit" data-btn-guardar>Guardar</button>
+    </form>
+
+    <div data-container-usuarios></div>
+
+    <form action="">
+        <input type="text" data-actualizar-id hidden="true">
+        <input type="text" data-actualizar-nombre>
+        <input type="text" data-actualizar-pass hidden="true">
+
+        <button type="submit" data-btn-actualizar>Actualizar</button>
+    </form>
+
+    <form action="">
+        <input type="search" data-campo-buscar>
+        
+        <button type="submit" data-btn-buscar>buscar</button>
+    </form>
+
+    <div data-resultado-busqueda></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/servicios-usuarios.js" type="module"></script>
+    <script src="assets/js/obtener-usuarios.js" type="module"></script>
+    <script src="assets/js/registrar-usuario.js" type="module"></script>
+    <script src="assets/js/actualizar-usuario.js" type="module"></script>
+    <script src="assets/js/buscar-usuario.js" type="module"></script>
+
+</body>
+</html>

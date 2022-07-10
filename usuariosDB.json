@@ -1,0 +1,79 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Joel",
+      "pass": "",
+      "id": "0"
+    },
+    {
+      "nombre": "Josué",
+      "id": "1",
+      "pass": "hermoso"
+    },
+    {
+      "nombre": "Elizabeth",
+      "id": "fefa3724-74f6-488f-bcef-0a1209edb43d",
+      "pass": "mami"
+    },
+    {
+      "id": "c1723a7a-ef04-4878-9561-6a526dce0388",
+      "nombre": "Lucia",
+      "pass": "princesa"
+    },
+    {
+      "nombre": "Body",
+      "id": "ec8ef676-9d5d-42fd-9099-3f695e8f4f6f",
+      "pass": "fiel"
+    },
+    {
+      "id": "7340383a-7e42-4283-a233-d3babe2bd244",
+      "nombre": "Control",
+      "pass": "remoto"
+    },
+    {
+      "id": "3f80c48f-9af2-4a57-9dc1-40aeb8c29e02",
+      "nombre": "Ventilador",
+      "pass": "fresco"
+    },
+    {
+      "id": "cc8f4dbc-dfd1-421e-a772-a6d50123c25c",
+      "nombre": "Perfume",
+      "pass": "rico"
+    },
+    {
+      "nombre": "Torta",
+      "id": "0ab9e458-6021-4d63-b8d8-fef93357b1ca",
+      "pass": "rica"
+    },
+    {
+      "id": "d0989ef5-fbf2-46c1-9393-f69b7f7df6ec",
+      "nombre": "Hogar",
+      "pass": "caliente"
+    },
+    {
+      "id": "139ee1db-6ae0-4569-9fc3-3c39cffda3a8",
+      "nombre": "Baño",
+      "pass": "ediodo"
+    },
+    {
+      "id": "9954f1d1-80e8-4874-91d9-531e4950ba39",
+      "nombre": "Media",
+      "pass": "sucia"
+    },
+    {
+      "id": "c68adf64-1761-4509-83ad-4e465296b60a",
+      "nombre": "Matias",
+      "pass": "HEIT"
+    },
+    {
+      "id": "1e921c37-a2d0-4e76-b23f-00ffec2f6c8f",
+      "nombre": "Joel",
+      "pass": "groso"
+    },
+    {
+      "id": "2ba55f30-a4bb-4002-8e07-1c66206e247b",
+      "nombre": "Matias",
+      "pass": "burgos"
+    }
+  ]
+}
